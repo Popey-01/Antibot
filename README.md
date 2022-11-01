@@ -1,2 +1,2 @@
 # Antibot pour scama
-Un antibot pour scama française basé sur un principe de whiteliste pour éviter les red screen, avec cet antibot les mise à jour ne seront plus un problème.
+Un antibot pour scama française basé sur un principe de whiteliste, cela le rend donc bien plus puissant que n'importe quel antibot basé sur un principe de blacklist. Spécifiant les personnes qui doivent rentrer et non l'inverse, cet antibot n'a pas besoin d'être mis à jour. Avec cet antibot, vous pouvez définitivement dire aurevoir aux red screen. Attention cependant à ne pas lancer de spam à l'internationnale avec cet antibot, il sert uniquement pour les scama française.
