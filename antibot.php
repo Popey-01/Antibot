@@ -39,18 +39,5 @@ function checkUser($ip){
 // EXECUTION DE LANTIBOT
 if(checkUser($ip) != TRUE){
     header('Location: https://google.com');
-    $str = file_get_contents("data.json");
-    $arr = json_decode($str);
-    $visit = $arr->{'stats'}->{'visit'};
-    $packid = $arr->{'stats'}->{'packid'};
-    $bot = $arr->{'stats'}->{'bot'};
-    $new_counter = array(
-        'stats' => array(
-            'visit'=> $visit,
-            'packid'=> $packid, 
-            'bot'=> $bot+1,
-        )
-    );
-    file_put_contents('data.json', json_encode($new_counter, JSON_PRETTY_PRINT));
 }
 ?>
