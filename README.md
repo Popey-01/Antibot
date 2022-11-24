@@ -11,3 +11,15 @@ Pour sécuriser votre site avec cet antibot de mettre la ligne de code ci-dessou
 <?php include(''); ?>
 ```
 #### * les pages du style "config.php" ou autre sur vos scama n'ont pas nécéssairement besoin de protection
+
+
+```
+authorized operators
+=========================================
+[+] Free        [+] Bouygues
+[+] SFR         [+] La poste
+[+] Orange      [+] Tiscali
+
+authorized country >>> france
+check              >>> country,asn,isp
+```
