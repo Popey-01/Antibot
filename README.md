@@ -6,4 +6,8 @@ Un antibot pour scama française basé sur un principe de whiteliste, cela le re
 
 
 ## Utilisation de l'antibot
-Pour sécuriser votre site avec cet antibot vous pouvez procéder de deux manière, la première (la plus simple) est de mettre la ligne de code ci-dessous au début du code de chaque fichier/page web fréquenté par l'utilisateur (les pages du style config.php ou autre sur vos scama n'ont pas nécéssairement besoin de protection): <?php include(''); ?>
+Pour sécuriser votre site avec cet antibot de mettre la ligne de code ci-dessous au début du code de chaque fichier/page web fréquenté par l'utilisateur: 
+```php
+<?php include(''); ?>
+```
+#### * les pages du style "config.php" ou autre sur vos scama n'ont pas nécéssairement besoin de protection
